@@ -1,0 +1,86 @@
+*{
+    font-family: 'Montserrat', sans-serif; /*Aplica a fonte importada para todo o documento*/
+    margin: 0px; /*Reseta todos os valores de margin*/
+    padding: 0px; /*Reseta todos os valores de padding*/
+    box-sizing: border-box; /*Não permite que as medidas de padding e margin se somem as do componente*/    
+}
+
+header{
+    margin-top: 44px; /*Margem superior do cabeçalho*/
+    margin-bottom: 144px; /*Margem inferior do cabeçalho*/
+    margin-left: 76px; /*Margem esquerda do cabeçalho*/
+}
+
+.link-header{
+    text-decoration: none; /*Retira o sublinhado dos links*/
+    color: #989D9C; /*Cor da fonte*/
+    font-weight: 600; /*Peso da fonte (expessura)*/
+    font-size: 24px; /*Tamanho da fonte*/
+    line-height:29px; /*Altura da linha*/
+    cursor: pointer; /*Cursor em formato de mãozinha ao posicionar sobre o link (já é o padrão)*/
+    margin-right: 23px; /*Margem direita (espaçamento) entre os links*/
+}
+
+.button-header{
+    width: 130px; /*Largura do botão*/
+    height: 41px; /*Altura do botão*/
+    border-radius: 20.5px; /*Raio do canto arredondado do botão*/
+    border: none; /*Sem borda*/
+    background: #665AE1; /*Cor de fundo do botão*/
+    color: #FFFFFF; /*Cor da fonte do botão*/
+    font-size: 24px; /*Tamanho da fonte do botão*/
+    font-weight: 600; /*Peso (espessura) da fonte do botão*/
+    line-height: 29px; /*Altura da linha*/
+    cursor: pointer; /*Cursor em formato de mãozinha ao posicionar sobre o botão*/
+}
+
+.button-main{
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    border: none;
+    background: #ADFF00;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;    
+    cursor: pointer; 
+    margin-top: 65px; /*Margem superior (espaçamento) entre o botão e o parágrafo*/
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); /*Coloca um sombreamento inferior no botão*/
+}
+
+.logo-image{
+    width: 568px; /*Largura da imagem*/
+    height: 500px; /*Altura da imagem*/
+    margin-left: 125px; /*Margem esquerda (espaçamento) entre a tela e a imagem*/
+    display: inline-block; /*Permite que os elementos fiquem lado a lado e sejam ajustados*/
+}
+
+section{
+    display: inline-block; /*Permite que os elementos fiquem lado a lado e sejam ajustados*/ 
+    margin-left: 86px; /*Margem esquerda (espaçamento) entre a section e a imagem*/   
+}
+
+h1{
+    color: #515151;    
+    font-size: 100px;    
+    font-weight: 900;
+    line-height: 122px;
+}
+
+h2{
+    color: #515151;    
+    font-size: 58px;    
+    font-weight: 500;
+    line-height: 71px;
+}
+
+p{
+    color: #848484;    
+    font-size: 24px;    
+    font-weight: 400;
+    line-height: 29px;
+    Width: 515px;
+    margin-top: 32px;  
+}
+    
